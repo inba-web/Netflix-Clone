@@ -1,12 +1,75 @@
-# React + Vite
+# 🎬 Netflix Clone – Frontend Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A Netflix-inspired frontend web application built with **React, Firebase, CSS, and TMDB API** that replicates the core UI and browsing experience of Netflix.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎥 Browse trending movies and TV shows using **TMDB API**  
+- 🔍 Dynamic movie rows by categories (Trending, Top Rated, Originals, etc.)  
+- 🎞️ Movie trailer preview using **YouTube integration**  
+- 🔐 Firebase Authentication (Login / Logout)  
+- 📱 Fully responsive Netflix-style UI  
+- ⚡ Fast and interactive React-based frontend  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### 🎨 Frontend
+- ⚛️ React.js  
+- 🎨 CSS / Flexbox  
+- 🔥 Firebase Authentication  
+- 🎬 TMDB API  
+
+### ☁️ Deployment
+- 🚀 Firebase Hosting  
+- 🌐 Vercel / Netlify  
+
+---
+
+## ⚙️ Setup & Installation
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/inba-web/Netflix-Clone.git
+cd netflix-clone
+```
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Environment Variables
+
+Create a .env file in the root folder:
+
+REACT_APP_TMDB_API_KEY=your_tmdb_api_key
+REACT_APP_FIREBASE_API_KEY=your_firebase_key
+
+4️⃣ Run the App
+npm start
+
+🧠 Project Highlights
+
+🎨 Built a Netflix-inspired UI using React component-based architecture
+
+🎬 Integrated real-time movie data using TMDB API
+
+🔐 Implemented Firebase authentication for secure login/logout
+
+📱 Designed a responsive UI similar to production-grade streaming platforms
+
+⚛️ Practiced API integration, state management, and frontend architecture
+
+🎯 Future Enhancements
+
+👤 User profiles and watchlist feature
+
+🤖 AI-based movie recommendation system
+
+🌙 Dark / Light mode toggle
+
+🗄️ Backend for user history and favorites
+
+💳 Subscription and payment simulation
