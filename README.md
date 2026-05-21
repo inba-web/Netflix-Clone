@@ -72,4 +72,4 @@ npm start
 
 🗄️ Backend for user history and favorites
 
-💳 Subscription and payment simulation
+💳 Subscription and payment simulation.
